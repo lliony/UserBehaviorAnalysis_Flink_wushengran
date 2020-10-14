@@ -35,8 +35,8 @@ object HotPagesNetworkFlow {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
         //转换成样例提取时间戳,类并生成waterMark
-        //        val inputStream = env.readTextFile("D:\\fileImportant\\Learn_projects\\UserBehaviorAnalysis_Flink_wushengran\\NetworkFlowAnalysis\\src\\main\\resources\\apache.log")
-        val inputStream = env.socketTextStream("www.bigdata01.com", 4444)
+        val inputStream = env.readTextFile("E:\\gitdir\\learn_projects\\UserBehaviorAnalysis_Flink_wushengran\\NetworkFlowAnalysis\\src\\main\\resources\\apache.log")
+//        val inputStream = env.socketTextStream("www.bigdata01.com", 4444)
         val dataStream = inputStream
             .map(data => {
                 val arr = data.split(" ")

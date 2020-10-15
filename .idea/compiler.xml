@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LoginFailDetect" />
         <module name="NetworkFlowAnalysis" />
+        <module name="OrderTimeoutDetect" />
         <module name="MarketAnalysis" />
         <module name="HotItemAnalysis" />
       </profile>

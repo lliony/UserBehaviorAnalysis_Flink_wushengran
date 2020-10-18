@@ -3,3 +3,4 @@
 *.class
 *target/
 *hs_err*
+*replay_pid*

@@ -11,6 +11,9 @@
     <modules>
         <module>HotItemAnalysis</module>
         <module>NetworkFlowAnalysis</module>
+        <module>MarketAnalysis</module>
+        <module>LoginFailDetect</module>
+        <module>OrderTimeoutDetect</module>
     </modules>
     <properties>
         <flink.version>1.10.1</flink.version>

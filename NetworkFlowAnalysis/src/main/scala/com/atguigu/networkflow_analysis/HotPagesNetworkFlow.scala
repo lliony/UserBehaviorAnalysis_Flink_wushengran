@@ -20,6 +20,7 @@ import scala.collection.mutable.ListBuffer
 /**
  *
  * 需求:每隔 5 秒，输出最近 10 分钟内访问量最多的前 N 个 URL
+ * 乱序数据
  * Created by John.Ma on 2020/9/28 0028 23:02
  */
 // 定义输入数据样例类
